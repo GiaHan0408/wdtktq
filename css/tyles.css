@@ -1,0 +1,117 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Roboto+Mono:wght@300&display=swap');
+body{
+	font-family: 'Mukta', sans-serif;font-size: 16px;color: #666666; margin: 0
+}
+header{
+	width: 100%; height: 60px; background-color: rgba(255,255,255,0.80); box-shadow: 5px 5px 5px lightgray; position: fixed; left: 0; top: 0;
+}
+.logo{
+	padding-top: 12px;
+}
+.menu ul{
+	margin: 0;padding: 0; list-style: none; display: flex
+}
+.menu{
+	padding-top: 20px;
+}
+.menu ul li a{
+	padding: 8px 20px; border-radius: 20px;
+}
+.menu ul li a:hover{
+	background-color: rgba(245,165,167,1.00); color: white
+}
+#home{
+	width: 100%;min-height: 1000px;padding-top: 100px; background: url("../img/bg-header.png"), url("../img/profile.png"); background-repeat: no-repeat;background-position: left 0 top 0, right 0 bottom 0;
+}
+#home h1 {
+	color: black; font-size: 40px;
+}
+#about{
+	width: 100%;min-height: 900px;padding-top: 80px; 
+/*	background-color: deeppink;*/
+}
+#about .so{
+	font-size: 120px;font-weight: bold;color: black;padding: 0 5px;
+}
+#about .years{
+	letter-spacing: 25px;
+}
+#skill{
+	width: 100%;min-height: 900px;padding-top: 80px;
+/*	background-color: palevioletred;*/
+}
+/* Style the buttons inside the tab */
+#skill.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+#skill.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+#skill.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+#skill.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.text-big{
+	font-size: 35px
+}
+.progress {
+	height: 5px;
+	width: 100%;
+	background: #C7C6C6;
+	border-radius: 15px;
+}
+.bar {
+	height: 5px;
+	border-radius: 6px;
+/*
+	color: white;
+	text-align: center;
+*/
+	
+}
+#service{
+	width: 100%;min-height: 900px;padding-top: 80px; background-color: hotpink;
+}
+#projects{
+	width: 100%;min-height: 900px;padding-top: 80px; background-color: indianred;
+}
+#testimonial{
+	width: 100%;min-height: 900px;padding-top: 80px; background-color: tomato;
+}
+#contact{
+	width: 100%;min-height: 900px;padding-top: 80px; background-color: darkred;
+}
+.text-do{
+	color: red;
+}
+#btn-back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+}
+.text-den{
+	color: black;
+}
+.bo-goc{
+	border-radius: 10px;
+}
